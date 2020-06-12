@@ -23,7 +23,11 @@ const arrayOfObjects = [      // Brackets = ARRAY PART
 
 function superbowlWin(arg1){ // arg1 can be ARRAY OF OBJECTS
   let x = arg1.map( record => // this is like Ruby's  do |item| item.action
-    record   ) 
+    record.find( el =>
+      el.result === "W")
+    
+    
+    ) 
   
   
   
