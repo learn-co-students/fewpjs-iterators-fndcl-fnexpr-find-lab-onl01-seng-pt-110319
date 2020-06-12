@@ -21,7 +21,8 @@ const arrayOfObjects = [      // Brackets = ARRAY PART
   {year: "2010", result: "W"}
                                       ]
 
-function superbowlWin(){
+function superbowlWin(argument1){
+ let x = argument1.map(record => record)
   
   
   
