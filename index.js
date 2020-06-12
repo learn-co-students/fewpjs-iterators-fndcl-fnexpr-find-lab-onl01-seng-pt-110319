@@ -15,8 +15,10 @@ const arrayOfObjects = [      // Brackets = ARRAY PART
                               //Curlys = OBJECT PART
   {year: "2018", result: "L"},
   {year: "2017", result: "W"},
-  {year: "2016", result: "N/A"}
-   
+  {year: "2016", result: "N/A"},
+  {year: "2019", result: "W"},
+  {year: "2020", result: "W"},
+  {year: "2010", result: "W"}
                                       ]
 
 function superbowlWin(){
