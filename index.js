@@ -21,8 +21,9 @@ const arrayOfObjects = [      // Brackets = ARRAY PART
   {year: "2010", result: "W"}
                                       ]
 
-function superbowlWin(argument1){
- let x = argument1.map(record => record)
+function superbowlWin(arg1){ // arg1 can be ARRAY OF OBJECTS
+  let x = arg1.map( record => // this is like Ruby's  do |item| item.action
+    record   ) 
   
   
   
